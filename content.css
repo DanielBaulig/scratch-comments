@@ -1,0 +1,81 @@
+/*
+ * Scratch Comment Blocker - Content Styles
+ * Hides all comment-related elements on Scratch website
+ */
+
+/* Hide main comments container */
+.comments-container {
+  display: none !important;
+}
+
+/* Hide comments header */
+.comments-header {
+  display: none !important;
+}
+
+/* Hide comment composition form */
+.comments-root-reply {
+  display: none !important;
+}
+
+/* Hide comments list */
+.comments-list {
+  display: none !important;
+}
+
+/* Hide individual comments */
+.top-level-reply,
+.comment,
+.comment-bubble {
+  display: none !important;
+}
+
+/* Hide comment input/compose areas */
+.compose-comment,
+.comments-root-reply {
+  display: none !important;
+}
+
+/* Hide load more comments button */
+.load-more-button {
+  display: none !important;
+}
+
+/* Hide comments turned off message */
+.comments-turned-off {
+  display: none !important;
+}
+
+/* Hide comment placeholder images */
+.comment-placeholder-img {
+  display: none !important;
+}
+
+/* Hide commenting status component */
+.commenting-status {
+  display: none !important;
+}
+
+/* Hide comment toggle slider */
+.comments-allowed-input {
+  display: none !important;
+}
+
+/* Hide any sections that might contain "comments" in their data attributes or IDs */
+[id*="comment" i],
+[class*="comment" i],
+[data-testid*="comment" i] {
+  display: none !important;
+}
+
+/* Hide profile page comments section */
+#user-comments,
+.user-comments {
+  display: none !important;
+}
+
+/* Hide studio comments */
+.studio-comment-container,
+.studio-comments {
+  display: none !important;
+}
