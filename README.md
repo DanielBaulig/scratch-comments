@@ -36,19 +36,6 @@ This extension hides and removes all comment-related features from Scratch, incl
 
 **Note**: In Firefox, temporary extensions are removed when you close the browser. For permanent installation, you'll need to package and sign the extension through Mozilla Add-ons.
 
-## Adding Icons (Optional)
-
-The extension will work without icons, but you may see warnings in the browser. To add icons:
-
-1. Create three PNG images:
-   - `icon16.png` (16x16 pixels)
-   - `icon48.png` (48x48 pixels)
-   - `icon128.png` (128x128 pixels)
-
-2. Place them in the same folder as `manifest.json`
-
-You can use any image editing software, or search for "scratch logo" to create themed icons.
-
 ## How It Works
 
 The extension uses two methods to block comments:
