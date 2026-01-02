@@ -1,5 +1,7 @@
 # Scratch Comment Blocker
 
+![ScratchComment Logo](scratch-comment-original.png)
+
 A browser extension for parental controls that removes comment functionality from the Scratch website (scratch.mit.edu).
 
 ## What It Does
